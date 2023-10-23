@@ -3,6 +3,8 @@ from scipy.linalg import eigh as largest_eigh
 from scipy.sparse.linalg import eigs
 from scipy.sparse.linalg.eigen.arpack import eigsh as largest_eigsh
 
+f=open("testMatrix.txt","r")
+
 #f=open("matrix2MoreEfficient.txt","r")
 #f=open("matrix2.txt","r")
 #f=open("family2MoreEfficient.txt","r")
@@ -14,7 +16,7 @@ from scipy.sparse.linalg.eigen.arpack import eigsh as largest_eigsh
 #f=open("testMatrix.txt","r")
 #f=open("anotherTestMatrix.txt","r")
 #f=open("testingMatrix.txt","r")
-f=open("family5Reg10Vertices.txt","r")
+#f=open("family5Reg10Vertices.txt","r")
 
 lines=f.readlines()
 f.close()
