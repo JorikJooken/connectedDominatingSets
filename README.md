@@ -13,7 +13,7 @@ make
 
 ### calcMeanConnectedSetOrderSubsetIteration.cpp
 
-This program expects as input a list of graph6 strings. It will calculate c(G) for each input graph and it will output the maximum value of c(G) over all these graphs together with an exhaustive list of maximizers.
+This program expects as input a list of graph6 strings. It will calculate c(G) for each input graph and it will output the maximum value of c(G) over all these graphs together with an exhaustive list of maximizers. Note that there are two definitions that are being used in different papers (either c(G) is between 0.5 and 1 or c(G) is between 1 and 2, so the values make clear which definition is being used).
 
 For example, executing the following command:
 
@@ -65,6 +65,38 @@ we get the following output:
 
 These values represent the 6 largest eigenvalues of the coefficient matrix. If we now take the fourth root of the largest eigenvalue, we get 1.729 (the constant from Section 3).
 
+### calcMatrixKRegularEdgeFamily.cpp
+
+This program is similar to "calcMatrix3RegularCaseBinaryTreeInMiddle.cpp", but it computes the matrix corresponding to another family, namely when the graph M from Section 4 is chosen as K_{d,d}. The program expect one parameter d>=3 as an input. The output will be a matrix corresponding to a d-regular family.
+
+If we execute the command
+```bash
+./calcMatrixKRegularEdgeFamilyExecutable > testMatrix.txt
+```
+and then provide the following input
+```bash
+4
+```
+
+the program will compute the matrix corresponding to K_{4,4}.
+
+If we now execute the command
+```bash
+python3 calcEigenvalues.py 
+```
+
+we get the following output:
+```bash
+[167.96947757 +0.j           8.99575757-28.47230051j
+   8.99575757+28.47230051j  22.41912237-13.99586051j
+  22.41912237+13.99586051j  22.41912237-13.99586051j]
+```
+
+Now taking the eight root of the largest eigenvalue gives us the constant 1.897.
+
+### calcMeanDominatingConnectedSetOrderSubsetIteration.cpp, calcMeanDominatingConnectedSetOrderTarjanRemove.cpp, dominatingCalcMatrix3RegularCaseBinaryTreeInMiddle.cpp and dominatingCalcMatrixKRegularEdgeFamily.cpp
+
+These programs have the same functionality as their non-dominating versions, but these programs are related to connected dominating sets instead.
 
 ## DATA
 ### connectedSets
