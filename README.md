@@ -37,14 +37,14 @@ This program has the same functionality as the previous program, but uses a diff
 
 ### calcMatrix3RegularCaseBinaryTreeInMiddle.cpp
 
-This program expects as input an integer K specifying that there should be a binary tree in the middle consisting of 2^K-2 vertices, which is connected to vertices on the cycle (see Section 4 of the paper for details). This program will generate the coefficient matrix.
+This program expects as input an integer 1 <= K <= 3 specifying that there should be a binary tree in the middle consisting of 2^K-2 vertices, which is connected to vertices on the cycle (see Section 4 of the paper for details). This program will generate the coefficient matrix.
 
 For example, the following command:
 ```bash
 ./calcMatrix3RegularCaseBinaryTreeInMiddleExecutable > testMatrix.txt
 ```
 
-Will start the program and write its output to "testMatrix.txt". The program expects an integer as input. For example, if we follow the following input:
+Will start the program and write its output to "testMatrix.txt". The program expects an integer as input. For example, if we write the following input:
 
 ```bash
 1
