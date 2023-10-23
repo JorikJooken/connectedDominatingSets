@@ -1,0 +1,5 @@
+cdBest was: 2673
+The corresponding c(G): 0.965057634829
+An exhaustive list of all best graphs in graph6 format:
+Ks`zB?WE?F_]
+Ks`zB?QC_R`M

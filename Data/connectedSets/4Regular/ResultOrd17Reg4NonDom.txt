@@ -1,0 +1,4 @@
+Best was: 76962
+The corresponding c(G): 0.969165675745
+An exhaustive list of all best graphs in graph6 format:
+Ps`aa?hG_aAGAEAD?`GGK?gK
