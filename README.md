@@ -33,7 +33,7 @@ This means that the graph "IsP@PGXD_" has 569 connected induced subgraphs and th
 
 ### calcMeanConnectedSetOrderTarjanRemove.cpp
 
-This program has the same functionality as the previous program, but uses a different algorithm and can usually be expected to be slightly faster.
+This program has the same functionality as the previous program, but uses a different algorithm and can usually be expected to be slightly faster. There are also different conventions in the literature about whether the empty set should be included as well. This program does not count the empty set, whereas the program "calcMeanConnectedSetOrderSubsetIteration.cpp" does.
 
 ### calcMatrix3RegularCaseBinaryTreeInMiddle.cpp
 
