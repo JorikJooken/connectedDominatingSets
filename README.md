@@ -18,7 +18,7 @@ This program expects as input a list of graph6 strings. It will calculate c(G) f
 For example, executing the following command:
 
 ```bash
-./genreg/genreg-incl-bip-march-native-fastest/genreg-incl-bip-march-native-fastest/genreg 10 3 -g stdout | ./calcMeanConnectedSetOrderSubsetIterationExecutable
+./genregFolder/genreg 10 3 -g stdout | ./calcMeanConnectedSetOrderSubsetIterationExecutable
 ```
  will generate all connected 3-regular graphs on 10 vertices and calculate c(G) for each one of them. The expected output is as follows:
 
