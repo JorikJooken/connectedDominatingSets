@@ -1,6 +1,6 @@
 # Connected dominating sets
 
-This repository contains code and data related to the paper "The maximum number of connected sets in regular graphs". All code can be found in the directory "Code", whereas all data can be found in the directory "Data".
+This repository contains code and data related to the paper "The maximum number of connected sets in regular graphs", see https://arxiv.org/pdf/2311.00075.pdf. All code can be found in the directory "Code", whereas all data can be found in the directory "Data".
 
 Below, we briefly describe the different programs and data. We will assume that Linux is being used and that GENREG is installed. The details on how to install GENREG can be found on [this link](https://www.mathe2.uni-bayreuth.de/markus/reggraphs.html). The graphs that we are dealing with will be in graph6 format.
 
